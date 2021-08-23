@@ -1,3 +1,3 @@
-import Player from './player'
+import Player from './Player'
 
 export default Player
