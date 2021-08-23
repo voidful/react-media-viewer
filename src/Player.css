@@ -1,0 +1,128 @@
+:root {
+    --highlight-color: #93e9be;
+    --icon-focus-color: #93e9be;
+    --background-color: #000000;
+}
+
+
+.react-player {
+    position: absolute;
+    background-color: var(--background-color);
+}
+
+
+.player-wrapper > div > video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--background-color);
+}
+
+.rtl-controls-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.rtl-controls-top-bar {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    text-align: center;
+}
+
+
+.rtl-controls-top-bar-title {
+    width: 100%;
+}
+
+.rtl-controls-top-bar-subtitle {
+    width: 100%;
+}
+
+.rtl-controls-bottom-bar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    opacity: 0;
+}
+
+@media only screen {
+    .rtl-controls-top-bar:active, .rtl-controls-bottom-bar:active {
+        opacity: 1;
+    }
+}
+
+.rtl-controls-top-bar:hover, .rtl-controls-bottom-bar:hover {
+    opacity: 1;
+}
+
+.rtl-controls-bottom-bar-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.rtl-controls-bottom-bar-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rtl-controls-bottom-bar-button:hover {
+    filter: drop-shadow(0px 0px 6px var(--highlight-color));
+    cursor: pointer;
+}
+
+.rangeslider-horizontal {
+    height: 5px;
+    border-radius: 0px;
+}
+
+.rangeslider {
+    margin: 0px !important;
+    margin-top: -5px !important;
+}
+
+.rangeslider-horizontal {
+    height: 5px !important;
+    user-select: none;
+}
+
+.rangeslider__labels {
+    display: none !important;
+}
+
+.rangeslider__handle {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.rangeslider-horizontal .rangeslider__handle:after {
+    width: 10px !important;
+    height: 10px !important;
+    top: 5px !important;
+    left: 5px !important;
+}
+
+.rangeslider-horizontal .rangeslider__fill {
+    background-color: var(--highlight-color) !important;
+}
+
+.rangeslider-horizontal .rangeslider__handle {
+    visibility: hidden;
+}
+
+.rangeslider-horizontal:hover .rangeslider__handle {
+    visibility: visible;
+}
+
+.rangeslider-horizontal:hover {
+    cursor: pointer;
+}
+
+.rangeslider-horizontal .rangeslider__handle:focus {
+    visibility: visible;
+    outline: 0 !important;
+}

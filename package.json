@@ -1,0 +1,55 @@
+{
+  "name": "react-media-viewer",
+  "version": "1.0.0",
+  "description": "Media Player Component for React",
+  "repository": "git+https://github.com/voidful/react-media-viewer.git",
+  "author": "voidful",
+  "bugs": {
+    "url": "https://github.com/voidful/react-media-viewer/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "media viewer",
+    "media player",
+    "video player",
+    "react video player"
+  ],
+  "scripts": {
+    "demo": "webpack --config page.webpack.config.babel.js",
+    "release": "webpack --config webpack.config.babel.js",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint ./src"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.1.0",
+    "react-player": "^2.7.0",
+    "react-rangeslider": "^2.2.0",
+    "react-scripts": "4.0.3",
+    "screenfull": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/register": "^7.15.3",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.1.0",
+    "react-player": "^2.7.0",
+    "react-rangeslider": "^2.2.0",
+    "react-scripts": "4.0.3",
+    "screenfull": "^5.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "homepage": "https://github.com/voidful/react-media-viewer#readme",
+  "main": "index.js"
+}
