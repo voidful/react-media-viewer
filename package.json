@@ -1,6 +1,6 @@
 {
   "name": "react-media-viewer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Media Player Component for React",
   "repository": "git+https://github.com/voidful/react-media-viewer.git",
   "author": "voidful",

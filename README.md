@@ -59,7 +59,7 @@ Source | demo link
 
 ## Notes
 
-`react-media-view` is built on top of `react-player` and `react-simple-video-player`.  
+`react-media-view` is built on top of `react-player` and `react-themed-player`.  
 [react-player](https://www.npmjs.com/package/react-player)  
-[Rafael Klaessen's react-simple-video-player](https://github.com/rafaelklaessen/react-simple-video-player)  
+[vivek-nutcrackerz's react-simple-video-player](https://github.com/vivek-nutcrackerz/react-themed-player)  
 
